@@ -1,6 +1,5 @@
 """Guess what a turn was doing, so the dashboard can say "you spent $40 on
-debugging" instead of just "$40".
- 
+debugging" instead of just "$40". 
 Deliberately dumb: no model calls, just which tools got used plus words in the
 first user message. It's a hint, not a verdict, and it's easy to eyeball whether
 it's roughly right.
